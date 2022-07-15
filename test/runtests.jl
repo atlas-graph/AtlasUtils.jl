@@ -2,5 +2,6 @@ using AtlasUtils
 using Test
 
 @testset "AtlasUtils.jl" begin
-    # Write your tests here.
+    include("./AtlasMathTest.jl")
+    include("./TokenUtilsTest.jl")
 end
